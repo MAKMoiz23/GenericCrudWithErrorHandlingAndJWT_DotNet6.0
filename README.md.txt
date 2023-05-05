@@ -1,3 +1,0 @@
-GenericCrudWithErrorHandlingAndJWT_DotNet6.0
-
-Code is in the master branch of current repository Code implements the generic repository pattern and service consisting of generic crud service utilized in repo in my case DataModel class Jwt token is generated and returned from token controller and that token api is used in login api for jwt token reponse get which then appends the token in cookies the token consist of claims and in implementation I'm setting roles of token manually but it should be changed to db user table => user.role in order to achieve role based access or can be removed just to make auth generic for all if your need is not role based Insted of try catch logging is implemented for generic responses of api if there is any error
